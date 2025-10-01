@@ -43,3 +43,8 @@ A blueprint for creating objects. It defines attributes and behaviors.
 
         def drive(self):
             print(f"{self.brand} {self.model} is driving.")
+# 2. Object
+An instance of a class. You can create multiple objects from one class.
+my_car = Car("Toyota", "Camry")
+my_car.drive()  # Output: Toyota Camry is driving.
+

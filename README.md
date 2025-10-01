@@ -79,4 +79,12 @@ Different classes can define methods with the same name, and Python will call th
 
     animal_sound(Dog())  # Woof!
     animal_sound(Cat())  # Meow!
+#Why Use OOP?
+Modularity: Code is organized into classes.
+
+Reusability: Classes can be reused across projects.
+
+Scalability: Easier to manage large codebases.
+
+Maintainability: Changes are easier to implement.
 

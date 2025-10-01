@@ -48,4 +48,13 @@ An instance of a class. It contains real data and can perform actions defined by
 
     my_car = Car("Toyota", "Camry")
     my_car.drive()  # Output: Toyota Camry is driving.
+# 3. Encapsulation
+Hiding internal state and requiring all interaction to be performed through an object's methods.
+
+        class BankAccount:
+            def __init__(self, balance):
+            self.__balance = balance  # private attribute
+
+        def deposit(self, amount):
+            self.__balance += amount
 

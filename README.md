@@ -57,4 +57,26 @@ Hiding internal state and requiring all interaction to be performed through an o
 
         def deposit(self, amount):
             self.__balance += amount
+# 4. Inheritance
+Allows one class to inherit attributes and methods from another.
+
+    class ElectricCar(Car):
+    def charge(self):
+        print(f"{self.brand} {self.model} is charging.")
+# 5. Polymorphism
+Different classes can define methods with the same name, and Python will call the appropriate one.
+
+    class Dog:
+        def speak(self):
+            print("Woof!")
+
+    class Cat:
+         def speak(self):
+            print("Meow!")
+
+    def animal_sound(animal):
+        animal.speak()
+
+animal_sound(Dog())  # Woof!
+animal_sound(Cat())  # Meow!
 

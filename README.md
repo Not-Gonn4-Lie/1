@@ -1,5 +1,5 @@
 # Introduction to python
-Python is one of the most popular and beginner-friendly programming languages in the world
+Python is one of the most popular and beginner-friendly programming languages in the world.
 # What Is Python?
 Created by: Guido van Rossum in 1991
 

@@ -35,6 +35,7 @@ Object-Oriented Programming (OOP) is a programming style that organizes code aro
 # Core Concepts of Python OOP
 # 1.Class
 A blueprint for creating objects. It defines attributes and behaviors.
+
 class Car:
     def __init__(self, brand, model):
         self.brand = brand

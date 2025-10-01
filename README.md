@@ -30,3 +30,15 @@ Massive ecosystem: Thousands of libraries for everything from AI to web app.
 7.Error Handling
 
 8.Libraries: NumPy, Pandas, Flask, Django, etc.
+#What is OOP in Python?
+Object-Oriented Programming (OOP) is a programming style that organizes code around objects and classes, rather than functions and logic. Python supports OOP and makes it easy to model real-world entities.
+# Core Concepts of Python OOP
+# 1.Class
+A blueprint for creating objects. It defines attributes and behaviors.
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+    def drive(self):
+        print(f"{self.brand} {self.model} is driving.")
